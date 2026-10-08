@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Boolean, Float
+from sqlalchemy import Column, Integer, String, Boolean, Float  # type: ignore[reportMissingImports]
 from app.database import Base
 
 class Listing(Base):

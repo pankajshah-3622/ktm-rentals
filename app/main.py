@@ -1,3 +1,4 @@
+# pyright: reportMissingImports=false
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
