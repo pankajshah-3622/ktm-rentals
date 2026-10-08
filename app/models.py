@@ -6,9 +6,9 @@ class Listing(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, index=True)
-    location = Column(String, index=True) # e.g., Jhamsikhel, Baneshwor
+    location = Column(String, index=True)
     price = Column(Float)
-    floor_level = Column(String) # Ground, 1st, 2nd, Top
-    water_facility = Column(String) # Melamchi, Boring, Tanker
+    floor_level = Column(String)
+    water_facility = Column(String)
     parking_available = Column(Boolean, default=True)
-    is_verified_owner = Column(Boolean, default=True) # Broker protection flag
+    is_verified_owner = Column(Boolean, default=True)
